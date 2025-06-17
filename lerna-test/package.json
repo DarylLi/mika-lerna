@@ -1,0 +1,11 @@
+{
+  "name": "lerna-mika-demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.2.2"
+  }
+}

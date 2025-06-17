@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://mirrors.cloud.tencent.com/npm/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/DarylLi/mika-lerna/issues"
   },
-  "homepage": "https://github.com/DarylLi/mika-lerna#readme"
+  "homepage": "https://github.com/DarylLi/mika-lerna#readme",
+  "gitHead": "f2e9104c0ef55845fde8046283a402af5d02dd03"
 }

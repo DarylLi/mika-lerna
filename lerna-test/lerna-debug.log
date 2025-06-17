@@ -1,0 +1,14 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/DarylLi/mika-lerna.git/': Recv failure: Operation timed out
+17 error error: could not fetch origin
+17 error fatal: unable to access 'https://github.com/DarylLi/lerna-demo.git/': Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server
+17 error error: could not fetch origins
+17 error Fetching origin
+17 error Fetching origins
+17 error     at makeError (/Users/daryl/Downloads/lerna-test/node_modules/execa/lib/error.js:59:11)
+17 error     at module.exports.sync (/Users/daryl/Downloads/lerna-test/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/daryl/Downloads/lerna-test/node_modules/lerna/dist/index.js:1579:31)
+17 error     at updateRemote (/Users/daryl/Downloads/lerna-test/node_modules/lerna/dist/index.js:9207:18)
+17 error     at isBehindUpstream (/Users/daryl/Downloads/lerna-test/node_modules/lerna/dist/index.js:9197:3)
+17 error     at VersionCommand.initialize (/Users/daryl/Downloads/lerna-test/node_modules/lerna/dist/index.js:9491:57)
+17 error     at VersionCommand.runCommand (/Users/daryl/Downloads/lerna-test/node_modules/lerna/dist/index.js:3300:36)
